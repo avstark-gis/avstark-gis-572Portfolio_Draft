@@ -62,7 +62,7 @@ hr{
 
 
 #landing-image{
-	background-image: url("C:/Portfolio_572/images/Lowell.jpeg");
+	background-image: url("images/Lowell.jpeg");
 	height: 100vh;
 	width: 100%;
 	background-size: cover; 
@@ -222,7 +222,7 @@ hr{
 }
 
 #port-1{
-	background-image: url("C:/Portfolio_572/images/FINALFor Real.png");
+	background-image: url("images/FINALFor Real.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -230,7 +230,7 @@ hr{
 	width: 100%;
 }
 #port-2{
-	background-image: url("C:/Portfolio_572/images/Iowa-map-ps.jpg");
+	background-image: url("images/Iowa-map-ps.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -238,7 +238,7 @@ hr{
 	width: 100%;
 }
 #port-3{
-	background-image: url("C:/Portfolio_572/images/infograph_map.png");
+	background-image: url("images/infograph_map.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -246,7 +246,7 @@ hr{
 	width: 100%;
 }
 #port-4{
-	background-image: url("C:/Portfolio_572/images/Lab4.1.png");
+	background-image: url("images/Lab4.1.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -255,7 +255,7 @@ hr{
 }
 
 #port-5{
-	background-image: url("C:/Portfolio_572/images/mad-max.png");
+	background-image: url("images/mad-max.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
