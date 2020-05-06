@@ -1,0 +1,135 @@
+ body{
+	font-family: "Spartan", Helvetica, sans-serif;
+	margin: 0;
+}
+
+
+#page-wrapper{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: #D35400 ;
+}
+
+h1{
+	font-family: "Spartan"
+	font-size: 5rem;
+
+}
+hr{
+	width: 55%;
+	display: block;
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 1.5px;
+}
+
+/*<!--NavBar-->*/
+
+.flex-container{
+	display: grid;
+}
+
+#nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin:0;
+	padding-top:15px;
+}
+
+.right-side{
+	display: flex;
+	padding-bottom: 12px;
+	font-size: .9rem;
+}
+
+.nav-link-wrapper{
+	display: flex;
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+	margin-left: 15px;
+	margin-right: 15px;
+	box-sizing: border-box;
+}
+
+/*Nav bar brand*/
+
+}
+.brand-left-home{
+	border-left: 12px;
+	text-transform: uppercase;
+	font-size: .9rem;
+	padding-bottom: 12px;
+}
+
+.active-nav-link {
+	text-decoration: none;
+	border-bottom: 1px transparent;
+}
+/*<-- THIS IS THE IN ACTION LINKS-->*/
+
+.active-nav-link:hover a{
+	color:#8a8a8a;
+}
+
+.nav-link-wrapper a{
+	color:#8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s
+}
+
+.nav-link-wrapper:hover{
+	border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+	color: black;
+}
+
+/*end of in action links*/
+/*end of navbar*/
+
+/*Landing Page*/
+
+#contact-image{
+	background-image: url("C:/Portfolio_572/images/small_fabric_CROP.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover; 
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.landing-text{
+	text-align: center;
+	position: relative;
+	top: 40%;
+	left:50%; 
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	margin-left: 8px; 
+	margin-right: 8px;
+}
+
+.landing-text h1{
+	margin-bottom: 20px;
+}
+.landing-text h2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*End of the landing page*/
+

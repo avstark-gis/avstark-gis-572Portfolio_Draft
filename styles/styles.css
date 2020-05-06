@@ -1,0 +1,303 @@
+body{
+	font-family: "Spartan", Helvetica, sans-serif;
+	margin: 0;
+}
+
+
+#page-wrapper{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: coral;
+}
+/*for the hover state in portfolio items*/
+#port-1 a:hover{
+	text-shadow: 2px 2px black;
+}
+#port-2 a:hover{
+	text-shadow: 2px 2px black;
+}
+#port-3 a:hover{
+	text-shadow: 2px 2px black;
+}
+#port-4 a:hover{
+	text-shadow: 2px 2px black;
+}
+#port-5 a{
+	color:white;
+	font-size: 2.5rem;
+	text-shadow: 2.5px 2.5px black;
+}
+#port-5 a:hover{
+	color: red;
+	font-size: 2.5rem;
+	
+}
+h1{
+	font-family: "Spartan"
+	font-size: 5rem;
+}
+
+h3{
+	text-align: center;
+}
+hr{
+	display: block;
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 3px;
+}
+
+/*Landing Page*/
+
+
+#landing-image{
+	background-image: url("C:/Portfolio_572/images/Lowell.jpeg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.landing-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left:50%; 
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 1.7rem;
+	letter-spacing: 3px;
+}
+
+.landing-text h1{
+	margin-bottom: 10px;
+}
+.landing-text h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contact-button:hover {
+	background-color: coral;
+	color: white;
+}
+
+#contact-button {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	padding: 12px 25px;
+}
+/*End of the landing page*/
+
+/*<!--NavBar-->*/
+
+.flex-container{
+	display: grid;
+}
+
+#nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin:0;
+	padding-top:15px;
+}
+
+.right-side{
+	display: flex;
+	padding-bottom: 12px;
+	font-size: .9rem;
+}
+
+.nav-link-wrapper{
+	display: flex;
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+	margin-left: 15px;
+	margin-right: 15px;
+	box-sizing: border-box;
+}
+
+/*Nav bar brand*/
+
+}
+.brand-left-home{
+	border-left: 12px;
+	text-transform: uppercase;
+	font-size: .9rem;
+	padding-bottom: 12px;
+}
+
+.active-nav-link {
+	text-decoration: none;
+	border-bottom: 1px transparent;
+}
+/*<-- THIS IS THE IN ACTION LINKS-->*/
+
+.active-nav-link:hover a{
+	color:#8a8a8a;
+}
+
+.nav-link-wrapper a{
+	color:#8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s
+}
+
+.nav-link-wrapper:hover{
+	border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+	color: black;
+}
+
+
+/*end of in action links*/
+/*end of navbar*/
+
+/*<--Header for Portfolio-->*/
+
+.header{
+	height:70px;
+	text-align: center;
+	padding-bottom: 25px;
+	background-color: #E5E7E9;
+}
+
+.header h1{
+	margin: 0;
+	margin-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	font-size: 2.5rem;
+	color:white;
+
+	text-align: center;
+}
+
+#portfolio-break{
+	color: white;
+	padding: 0;
+	margin:0;
+}
+/*end header for portfolio*/
+
+.subtitle {
+	height: 70px;
+	font-family: Crimson Text;
+	font-size: 1.9rem;
+	font-weight: 600;
+	text-align: center;
+	background-color: #E5E7E9;/*#8a8a8a*/
+	padding-right: 25px;
+	padding-bottom: 25px;
+	/*color to outside  #E5E7E9;*/
+	/*move text down*/
+}
+
+
+/*<--Portfolio-->*/
+
+#portfolio{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.portfolio-individual-wrapper{
+	position: relative;/*goes with absolute below*/
+}
+
+#port-1{
+	background-image: url("C:/Portfolio_572/images/FINALFor Real.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+}
+#port-2{
+	background-image: url("C:/Portfolio_572/images/Iowa-map-ps.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+}
+#port-3{
+	background-image: url("C:/Portfolio_572/images/infograph_map.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 100%;
+}
+#port-4{
+	background-image: url("C:/Portfolio_572/images/Lab4.1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+}
+
+#port-5{
+	background-image: url("C:/Portfolio_572/images/mad-max.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+}
+.img-text-wrapper{
+	position: relative;/*includes center text*/
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	padding-left: 110px;
+	padding-right: 150px;
+	padding-bottom: 50px:;
+	font-family: Spartan;
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: black;  
+	transition: 1.5s;
+}
+
+.img-text-wrapper a:hover{
+	color: gray;
+	font-weight: 600;
+}
+
+
+/* for .subtitile add this in^^1st
+	transition: color 2s;
+.subtitle:hover{
+	color: transparent;
+	font-weight: 600;
+	text-align: center;
+}*/
+
+/*
+@media (min-width: @screen-md-min){
+	.navbar #nav-wrapper{
+		width: 100%;
+}
+
